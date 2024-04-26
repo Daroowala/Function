@@ -5,7 +5,15 @@
 // greeting();
 
 // Function with parameters & arrguments
+// function add(a,b,c){
+//     alert(a+b+c)
+// }
+// add(10,8,5); // 10,8,5 are called arguments
+
+// Return arguments sai value return krta hai
 function add(a,b,c){
-    alert(a+b+c)
+    var z = a+b+c
+    return z;
 }
-add(10,8,5); // 10,8,5 are called arguments
+var g = add(10,8,5);
+alert(g)
