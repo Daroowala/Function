@@ -45,11 +45,41 @@
 
 
 // agar variable local hai to uski value change nhi kr skte hai aur local variable ko function call kar ka check kar sakta hai
-var a = "Rehan";
-function foo(){
-     a = "Ali"
+// var a = "Rehan";
+// function foo(){
+//      a = "Ali"
 
+// }
+// foo();
+// console.log(a);
+
+
+// function oppreter
+function calc(num1,opt,num2){
+    if (opt === "+"){
+        return num1 + num2
+    }
+    else if (opt === "-"){
+        return num1 - num2
+    }
+    else if (opt === "*"){
+        return num1 * num2
+    }
+    else if (opt === "/"){
+        return num1 / num2
+    }
+    else{
+        return "Invalid Operator!"
+    }
 }
+var result1 = calc(10,"-",5)
+var result2 = calc(10,"+",5)
+var result3 = calc(10,"*",5)
+var result4 = calc(10,"/",5)
+var result5 = calc(10,"$",5)
 
-foo();
-console.log(a);
+console.log(result1)
+console.log(result2)
+console.log(result3)
+console.log(result4)
+console.log(result5)
