@@ -55,31 +55,31 @@
 
 
 // function oppreter
-function calc(num1,opt,num2){
-    if (opt === "+"){
-        return num1 + num2
-    }
-    else if (opt === "-"){
-        return num1 - num2
-    }
-    else if (opt === "*"){
-        return num1 * num2
-    }
-    else if (opt === "/"){
-        return num1 / num2
-    }
-    else{
-        return "Invalid Operator!"
-    }
-}
-var result1 = calc(10,"-",5)
-var result2 = calc(10,"+",5)
-var result3 = calc(10,"*",5)
-var result4 = calc(10,"/",5)
-var result5 = calc(10,"$",5)
+// function calc(num1,opt,num2){
+//     if (opt === "+"){
+//         return num1 + num2
+//     }
+//     else if (opt === "-"){
+//         return num1 - num2
+//     }
+//     else if (opt === "*"){
+//         return num1 * num2
+//     }
+//     else if (opt === "/"){
+//         return num1 / num2
+//     }
+//     else{
+//         return "Invalid Operator!"
+//     }
+// }
+// var result1 = calc(10,"-",5)
+// var result2 = calc(10,"+",5)
+// var result3 = calc(10,"*",5)
+// var result4 = calc(10,"/",5)
+// var result5 = calc(10,"$",5)
 
-console.log(result1)
-console.log(result2)
-console.log(result3)
-console.log(result4)
-console.log(result5)
+// console.log(result1)
+// console.log(result2)
+// console.log(result3)
+// console.log(result4)
+// console.log(result5)
