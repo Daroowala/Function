@@ -97,3 +97,26 @@
     
 // }
 // console.log(foo());
+
+// var dayOfWk = prompt("What day is it today?").toUpperCase();
+
+// if (dayOfWk ==="SAT" || dayOfWk === "SUN") {
+//     alert("Whoopee!");
+//      }
+//      else if (dayOfWk === "FRI") {
+//      alert("Eid Day!");
+//      }
+//      else {
+//      alert("Shoot me now!");
+//      }
+    
+
+
+//     var cityToCheck = prompt("Enter your city");
+//  cityToCheck = cityToCheck.toLowerCase();
+//  var cleanestCities = ["cheyenne", "santa fe", "tucson", "great falls", "honolulu"];
+//  for (var i = 0; i <= 4; i++) {
+//  if (cityToCheck === cleanestCities[i]) {
+//  alert("It's one of the cleanest cities");
+//  }
+//  }
