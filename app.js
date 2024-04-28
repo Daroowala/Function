@@ -86,7 +86,14 @@
 // console.log(result4)
 // console.log(result5)
 
-function foo(a,b = 3){
-    return a+b
-}
-console.log(foo(1,5));
+// multi functions
+// function foo(a,b,c ){
+//     return a+b+c
+// }
+// console.log(foo(1,5,5));
+
+
+// function foo(){
+    
+// }
+// console.log(foo());
