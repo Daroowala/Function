@@ -34,11 +34,13 @@
 
 
 
-// agar variable globel hai to uski value change kr skte hai aur globel variable ko function ka andher aur bahir dono tarikoon sai check kar sakta haan
+// agar variable globel hai to uski value change kr skte hai aur globel variable ko function ka bahir rakh kar check kar sakta haan
+
 // var a = "Rehan";
 // function foo(){
 //      a = "Ali"
 // }
+
 // // foo();
 // console.log(a);
 
@@ -83,3 +85,8 @@
 // console.log(result3)
 // console.log(result4)
 // console.log(result5)
+
+function foo(a,b = 3){
+    return a+b
+}
+console.log(foo(1,5));
