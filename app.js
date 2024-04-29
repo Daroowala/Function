@@ -120,3 +120,26 @@
 //  alert("It's one of the cleanest cities");
 //  }
 //  }
+
+
+// Swith Statment
+var dayofWk = prompt("What day is it today?").toLowerCase();
+switch (dayofWk){
+    case "sat":
+        case "sun":
+    alert("Woopeee!!!")
+    break
+    case "mon":
+        case "tue":
+            case "wed":
+                case "thu":
+                        alert("Going to Work")
+break
+                        case "fri":
+                            alert("!!!EID DAY!!!")
+                            break
+                            
+                            default :
+                            alert("Not a Day")
+
+}
