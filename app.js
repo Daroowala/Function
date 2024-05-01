@@ -150,15 +150,15 @@
 //     console.log(i);
 // }
 // While Loop
-var b = 0;
-while (b < 10){
-    console.log(b);
-    b++;
-}
-// Do While Loop
-// var c = 0;
-// do {
-//     console.log(c);
-//     c++;
+// var b = 0;
+// while (b < 10){
+//     console.log(b);
+//     b++;
 // }
-// while (c < 10);
+// Do While Loop
+var c = 0;
+do {
+    console.log(c);
+    c++;
+}
+while (c < 10);
