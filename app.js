@@ -123,23 +123,42 @@
 
 
 // Swith Statment
-var dayofWk = prompt("What day is it today?").toLowerCase();
-switch (dayofWk){
-    case "sat":
-        case "sun":
-    alert("Woopeee!!!")
-    break
-    case "mon":
-        case "tue":
-            case "wed":
-                case "thu":
-                        alert("Going to Work")
-break
-                        case "fri":
-                            alert("!!!EID DAY!!!")
-                            break
-                            
-                            default :
-                            alert("Not a Day")
+// var dayofWk = prompt("What day is it today?").toLowerCase();
+// switch (dayofWk){
+//     case "sat":
+//         case "sun":
+//     alert("Woopeee!!!")
+//     break
+//     case "mon":
+//         case "tue":
+//             case "wed":
+//                 case "thu":
+//                         alert("Going to Work")
+// break
+//                         case "fri":
+//                             alert("!!!EID DAY!!!")
+//                             break
 
+//                             default :
+//                             alert("Not a Day")
+
+// }
+
+
+// For Loop
+// for(i = 0; i <= 10; i++){
+//     console.log(i);
+// }
+// While Loop
+var b = 0;
+while (b < 10){
+    console.log(b);
+    b++;
 }
+// Do While Loop
+// var c = 0;
+// do {
+//     console.log(c);
+//     c++;
+// }
+// while (c < 10);
